@@ -84,7 +84,7 @@ export const projects = [
     des: "simple yet fun site where with just one click a person can generate funny memes and can have fun their with respective colleagues and friends.",
     img: "/mg.png",
     iconLists: ["/html.svg", "/js.svg", "/css.svg"],
-    link: "/ui.yoom.com",
+    link: "Not live",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "website that allows users to easily divide expenses among multiple people. The platform enables users to input total costs, select the number of participants, and assign individual shares or split costs evenly. The site provides a clear summary of each participant’s share ",
     img: "/bill.png",
     iconLists: ["/css.svg", "/html.svg", "/js.svg"],
-    link: "/ui.aiimg.com",
+    link: "Not live",
   },
   {
     id: 4,
