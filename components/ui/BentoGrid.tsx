@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Typescript"];
-  const rightLists = ["NodeJS", "NextJS", "JS"];
+  const leftLists = ["ReactJS", "JS", "Typescript"];
+  const rightLists = ["Express", "NodeJS", "NextJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -68,7 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "yashkasera07@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -134,9 +134,9 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-3">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -146,10 +146,10 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-3 lg:px-2 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
-                <span className="lg:py-3 lg:px-2 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
+                
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
