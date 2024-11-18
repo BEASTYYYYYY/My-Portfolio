@@ -103,3 +103,22 @@ export const projects = [
     link: "https://code-ek.vercel.app/",
   },
 ];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/BEASTYYYYYY",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+    link: "https://x.com/yashkasera07",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/yash-kasera-7525ab24b/",
+  },
+];
+
